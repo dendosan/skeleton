@@ -21,7 +21,7 @@ jobs:
 
       - name: Prepare dependencies
         run: |
-          go mod downloaded
+          go mod download
 
       - name: Test code
         run: |
